@@ -1,0 +1,21 @@
+:root {
+  --text-standard: #050505;
+  --background-standard: #fefdfdaf;
+  --input-text #050505;
+  --input-back: #bebebe;
+  --input-focus: #f0f0f0;
+  --light-header: #d9d9da;
+  --dark-header: #333333;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-standard: #f5f5f5;
+    --background-standard: #090909;
+    --input-text #f5f5f5;
+    --input-back: #2d2d2d;
+    --input-focus: #5f5f5f;
+    --light-header: #212121;
+    --dark-header: #b5b5b5;
+  }
+}
