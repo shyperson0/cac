@@ -1,26 +1,5 @@
-:root {
-  --text-standard: #050505;
-  --background-standard: #fefdfdaf;
-  --input-text #050505;
-  --input-back: #bebebe;
-  --input-focus: #f0f0f0;
-  --light-header: #d9d9da;
-  --dark-header: #333333;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-standard: #f5f5f5;
-    --background-standard: #090909;
-    --input-text #f5f5f5;
-    --input-back: #2d2d2d;
-    --input-focus: #5f5f5f;
-    --light-header: #212121;
-    --dark-header: #b5b5b5;
-  }
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+
 
 .titular{
     margin: 20px;
@@ -40,18 +19,11 @@
     font-weight: 400;
 }
 
-.titulo3{
+.titulo4{
     font-family: 'inter';
     text-align: center;
     font-size: 3em;
     font-weight: 300;
-    }
-
-.titulo4{
-      font-family: 'inter';
-      font-style: italic;
-
-      font-weight: 100;
     }
 
 nav .navbar-nav{
@@ -79,20 +51,6 @@ color: #731E3D;
 }
 
 .btn-outline-primary:hover {
- background-color: #731E3D;
+ background-color: #A52C58;
 border-color: #731E3D;
-}
-
-.btn-primary {
-  background-color: #A52C58;
-border-color: #731E3D;
-}
-
-.btn-primary:hover {
-  background-color: #731E3D;
-  border-color: #731E3D;
-}
-
-a:visited {
-  color: #731E3D;
 }

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+
+
+.titular{
+    margin: 20px;
+    padding: 40px;
+}
+
+.titulo2{
+    font-family: 'inter';
+    font-size: 3em;
+    text-align: center;
+}
+nav .navbar-nav{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #A52C58;
+}
+.link-secondary {
+    color: #731E3D;
+}
