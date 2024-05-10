@@ -22,6 +22,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
 
+body{
+ font-family: 'inter';
+}
+
 .titular{
     margin: 20px;
     padding: 40px;
@@ -58,7 +62,7 @@ nav .navbar-nav{
     list-style-type: none;
 }
 
-nav a{
+a{
     text-decoration: none;
 }
 
@@ -95,4 +99,11 @@ border-color: #731E3D;
 
 a:visited {
   color: #731E3D;
+}
+
+/*FOOTER*/
+footer {
+  color:  #333;
+  font-weight: 200;
+  text-align: center;
 }
