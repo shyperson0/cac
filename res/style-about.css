@@ -1,3 +1,54 @@
 .contenedor-paterno {
-    
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+padding-top: 2em;
 }
+
+.contenedor1{
+padding: 15px;
+margin: 10px;
+border: solid 1px;
+border-color: #731E3D;
+text-align: center;
+height: 50em;
+width: 35em;
+}
+
+.contenedor2{
+    padding: 15px;
+margin: 10px;
+    border: solid 1px;
+    border-color: #731E3D;
+    text-align: center;
+    height: 50em;
+width: 35em;
+}
+
+.contenedor3{
+    padding: 15px;
+margin: 10px;
+    border: solid 1px;
+    border-color: #731E3D;
+text-align: center;
+    height: 50em;
+width: 35em;
+}
+
+.nos{
+height: 150px;
+width: 150px;
+}
+
+.nombre{
+    padding-top: 10px;
+    padding-bottom: -20px;
+}
+
+.subtitulo{
+    padding-top: -20px;
+    color:  #333;
+    font-weight: 200;
+}
+
+.descripcion{

@@ -26,35 +26,36 @@ body{
  font-family: 'inter';
 }
 
-.titular{
-    margin: 20px;
-    padding: 40px;
+main{
+  margin: 20px;
+  padding: 40px;
 }
-.titulo1{
+
+h1{
     font-family: 'inter';
     font-size: 5em;
     text-align: center;
     font-weight: 700;
 }
 
-.titulo2{
+h2{
     font-family: 'inter';
     font-size: 4em;
     text-align: center;
     font-weight: 400;
 }
 
-.titulo3{
+h3{
     font-family: 'inter';
     text-align: center;
     font-size: 3em;
     font-weight: 300;
     }
 
-.titulo4{
+h4{
       font-family: 'inter';
       font-style: italic;
-
+      text-align: center;
       font-weight: 100;
     }
 
@@ -107,3 +108,4 @@ footer {
   font-weight: 200;
   text-align: center;
 }
+
