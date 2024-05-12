@@ -23,7 +23,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
 
 body{
- font-family: 'inter';
+font-family: 'inter';
 }
 
 main{
@@ -70,6 +70,7 @@ a{
 .nav-link {
     color: #A52C58;
 }
+
 .link-secondary {
     color: #731E3D;
 }
@@ -84,7 +85,7 @@ color: #731E3D;
 }
 
 .btn-outline-primary:hover {
- background-color: #731E3D;
+background-color: #731E3D;
 border-color: #731E3D;
 }
 

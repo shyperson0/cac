@@ -1,3 +1,5 @@
+
+
 .contenedor-paterno {
 display: flex;
 justify-content: space-between;
@@ -11,8 +13,9 @@ margin: 10px;
 border: solid 1px;
 border-color: #731E3D;
 text-align: center;
-height: 50em;
+height: 52em;
 width: 35em;
+border-radius: 25px;
 }
 
 .contenedor2{
@@ -21,8 +24,9 @@ margin: 10px;
     border: solid 1px;
     border-color: #731E3D;
     text-align: center;
-    height: 50em;
+    height: 52em;
 width: 35em;
+border-radius: 25px;
 }
 
 .contenedor3{
@@ -31,8 +35,9 @@ margin: 10px;
     border: solid 1px;
     border-color: #731E3D;
 text-align: center;
-    height: 50em;
+    height: 52em;
 width: 35em;
+border-radius: 25px;
 }
 
 .nos{
@@ -51,4 +56,24 @@ width: 150px;
     font-weight: 200;
 }
 
-.descripcion{
+.desc {
+    text-align: justify;
+font-size: 1em;
+padding: 5px;
+}
+
+.iconos{
+
+    border: dashed 0.5px;
+    border-color: #731e3d59;
+text-align: center;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+flex-direction: row;
+}
+
+.red {
+height: 80px;
+
+}
