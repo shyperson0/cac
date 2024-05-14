@@ -1,36 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
 
-
-.titular{
-    margin: 20px;
-    padding: 40px;
+.base {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    border-left-style: solid;
+    border-right-style: solid;
+    padding-left: 3em;
+    padding-right: 3em;
 }
-.titulo1{
+
+.gridcont {
+    display: grid;
+}
+
+.spacer {
+    margin-bottom: 4em;
+}
+
+h1 {
     font-family: 'inter';
     font-size: 5em;
     text-align: center;
     font-weight: 700;
 }
 
-.titulo2{
+h2 {
     font-family: 'inter';
     font-size: 4em;
     text-align: center;
     font-weight: 400;
 }
 
-.titulo4{
+h3 {
     font-family: 'inter';
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 300;
-    }
+}
+ul {
+    list-style-image: linear-gradient(to left bottom, red, blue);
+}
 
-nav .navbar-nav{
+li {
+    font-family: 'inter';
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'inter';
+    font-size: 1.5em;
+}
+
+nav .navbar-nav {
     list-style-type: none;
 }
 
-nav a{
+nav a {
     text-decoration: none;
 }
 
