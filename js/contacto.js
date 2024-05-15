@@ -1,17 +1,21 @@
-form.addEventListener("submit",(event)=>{
-    event.preventDefault();
+console.log("Formulario");
 
-    console.log(mail.value.trim(), typeof(mail.value.trim()));
+const form = document.querySelector(".form");
+const nombre = document.querySelector("#name");
+const mail = document.querySelector("#mail");
 
-   //let erroresValidacion = false;
+// valido el formulario antes de que se envie
 
-    if (nombre.value.trim().length < 3){
-        //erroresValidacion = true;
-        alert("El nombre debe contener al menos 3 caracteres");
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
 
-    }else if (mail.value.trim()==""){
-        alert("El email no ha sido proporcionado");
-    } else {
-        alert("Formulario validado y enviado");
-    }
+  if (nombre.value.trim().length < 3) {
+    alert("El nombre debe contener al menos 3 caracteres");
+  } else if (mail.value.trim() == "") {
+    alert("El email no ha sido proporcionado");
+  } else if (!mail.value.trim().includes("@")) {
+    alert("El email no es válido");
+  } else {
+    alert("Formulario validado y enviado");
+  }
 });
