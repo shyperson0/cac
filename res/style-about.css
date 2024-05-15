@@ -3,7 +3,7 @@
 .contenedor-paterno {
 display: flex;
 justify-content: space-between;
-flex-direction: row;
+flex-direction: column;
 padding-top: 2em;
 }
 
@@ -13,8 +13,8 @@ margin: 10px;
 border: solid 1px;
 border-color: #731E3D;
 text-align: center;
-height: 52em;
-width: 35em;
+height: 35em;
+width: 45em;
 border-radius: 25px;
 }
 
@@ -24,8 +24,8 @@ margin: 10px;
     border: solid 1px;
     border-color: #731E3D;
     text-align: center;
-    height: 52em;
-width: 35em;
+    height: 35em;
+width: 45em;
 border-radius: 25px;
 }
 
@@ -35,14 +35,15 @@ margin: 10px;
     border: solid 1px;
     border-color: #731E3D;
 text-align: center;
-    height: 52em;
-width: 35em;
+    height: 35em;
+width: 45em;
 border-radius: 25px;
 }
 
 .nos{
 height: 150px;
 width: 150px;
+border-radius: 25px;
 }
 
 .nombre{
@@ -63,17 +64,15 @@ padding: 5px;
 }
 
 .iconos{
-
     border: dashed 0.5px;
     border-color: #731e3d59;
 text-align: center;
 display: flex;
 justify-content: space-between;
-align-items: flex-end;
 flex-direction: row;
 }
 
 .red {
 height: 80px;
-
+align-items: flex-end;
 }
