@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+
+.fl {
+    list-style-image: linear-gradient(to left bottom, red, blue);
+}

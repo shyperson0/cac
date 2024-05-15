@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+
+form {
+  
+    /* font-family: "Beladosima", sans-serif;
+    background-color:#FC7300;
+    opacity: 0.8; */
+    margin:auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: center;
+    align-self: center;
+    /* border: solid 1px black; */
+}
+
+fieldset{
+    margin: 17px;
+}
+
+legend {
+    font-weight: 600;
+    color: var(--accent-main);
+    border-bottom: solid 2px var(--accent-secondary);
+}
+
+#datos_contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+#asunto{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#imagen_error{
+    font-size: 17px;
+}
+
+#div_comentarios{
+    display: flex;
+    flex-direction: column;
+    margin: 17px;
+}
+
+  /* button{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 7px;
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    align-self: center;
+   } */
+
+label, input {
+    font-size: 1rem:
+}
+
+@media (min-width: 320px) {
+    form {
+        width: 100%;
+    }
+    #imagen_error{
+        font-size: 12px;
+    }
+    #comentarios{
+        width: 100%;
+        align-self: center;
+    }
+}
+  
+@media (min-width: 768px) {
+    form{
+        width: 70%;
+    }
+}
+
+@media (min-width: 1024px) {
+    form{
+        width: 75%;
+    }
+}
