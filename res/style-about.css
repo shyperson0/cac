@@ -1,5 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
 
 .contenedor-paterno {
-    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 2em;
+}
+
+.contenedor1{
+    padding: 15px;
+    margin: 10px;
+    border: solid 1px;
+    border-color: var(--accent-secondary);
+    text-align: center;
+    height: 52em;
+    width: 35em;
+    border-radius: 25px;
+}
+
+.contenedor2{
+    padding: 15px;
+    margin: 10px;
+    border: solid 1px;
+    border-color: var(--accent-secondary);
+    text-align: center;
+    height: 52em;
+    width: 35em;
+    border-radius: 25px;
+}
+
+.contenedor3{
+    padding: 15px;
+    margin: 10px;
+    border: solid 1px;
+    border-color: var(--accent-secondary);
+    text-align: center;
+    height: 52em;
+    width: 35em;
+    border-radius: 25px;
+}
+
+.nos{
+    height: 150px;
+    width: 150px;
+}
+
+.nombre{
+    padding-top: 10px;
+    padding-bottom: -20px;
+}
+
+.subtitulo{
+    padding-top: -20px;
+    color:  var(--footer-text);
+    font-weight: 200;
+}
+
+.desc {
+    text-align: justify;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.iconos{
+
+    border: dashed 0.5px;
+    border-color: var(--accent-secondary-s);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.red {
+    height: 80px;
 }
