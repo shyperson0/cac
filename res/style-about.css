@@ -31,13 +31,12 @@ body{ margin-left: auto;
     border: solid 1px;
     border-color: var(--accent-secondary);
     text-align: center;
-<<<<<<< HEAD
     height: 37em;
     width: 45em;
     border-radius: 25px;
     height: 37em;
-width: 45em;
-border-radius: 25px;
+    width: 45em;
+    border-radius: 25px;
 }
 
 .contenedor3{
@@ -76,6 +75,7 @@ border-radius: 25px;
 
 .iconos{
     border: dashed 0.5px;
+    background-color: #e5e5e5;
     border-color: var(--accent-secondary-s);
     text-align: center;
     display: flex;
