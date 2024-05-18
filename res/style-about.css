@@ -1,12 +1,3 @@
-/*<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
-=======*//*
-body{ margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;}*/
-    /*
->>>>>>> e301a57 ( Fotos optimizadas. Tamaño casi.)*/
-
 .contenedor-paterno {
     display: flex;
     justify-content: space-between;
@@ -20,8 +11,8 @@ body{ margin-left: auto;
     border: solid 1px;
     border-color: var(--accent-secondary);
     text-align: center;
-    height: 37em;
-    width: 45em;
+   /* height: 37em;
+    width: 45em;*/
     border-radius: 25px;
 }
 
@@ -31,11 +22,9 @@ body{ margin-left: auto;
     border: solid 1px;
     border-color: var(--accent-secondary);
     text-align: center;
-    height: 37em;
-    width: 45em;
     border-radius: 25px;
-    height: 37em;
-    width: 45em;
+   /* height: 37em;
+    width: 45em;*/
     border-radius: 25px;
 }
 
@@ -45,8 +34,8 @@ body{ margin-left: auto;
     border: solid 1px;
     border-color: var(--accent-secondary);
     text-align: center;
-    height: 37em;
-    width: 45em;
+   /* height: 37em;
+    width: 45em;*/
     border-radius: 25px;
 }
 
